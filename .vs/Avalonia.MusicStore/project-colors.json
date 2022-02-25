@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ef4d2885-e15d-4e29-bbe8-a95a788befdc": {
+      "ProjectGuid": "ef4d2885-e15d-4e29-bbe8-a95a788befdc",
+      "DisplayName": "Avalonia.MusicStore",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
