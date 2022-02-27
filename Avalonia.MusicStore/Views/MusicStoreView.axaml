@@ -9,7 +9,7 @@
 		<StackPanel DockPanel.Dock="Top">
 			<TextBox Text="{Binding SearchText}" Watermark="Search for Albums...." />
 			<ProgressBar IsIndeterminate="True" IsVisible="{Binding IsBusy}" />
-		</StackPanel>
+		</StackPanel>		
 		<Button Command="{Binding BuyMusicCommand}" Content="Buy Album" DockPanel.Dock="Bottom" HorizontalAlignment="Center" />
 		<ListBox Items="{Binding SearchResults}" SelectedItem="{Binding SelectedAlbum}" Background="Transparent" Margin="0 20">
 			<ListBox.ItemsPanel>
@@ -18,5 +18,6 @@
 				</ItemsPanelTemplate>
 			</ListBox.ItemsPanel>
 		</ListBox>
+		
 	</DockPanel>
 </UserControl>
