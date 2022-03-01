@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+	<channel>
+		<title>Application</title>
+		<language>en</language>
+		<item>
+			<title>Application 1.0.0</title>
+			<pubDate>Mon, 28 Feb 2022 10:37:14 +01:00</pubDate>
+			<enclosure url="Avalonia.MusicStore.exe" sparkle:version="2.0.0" sparkle:shortVersionString="1.0" length="149504" sparkle:os="windows" type="application/octet-stream" />
+		</item>
+	</channel>
+</rss>

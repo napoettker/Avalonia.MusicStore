@@ -1,4 +1,3 @@
-using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using Avalonia.MusicStore.ViewModels;
@@ -25,5 +24,7 @@ namespace Avalonia.MusicStore
 
             base.OnFrameworkInitializationCompleted();
         }
+        
+
     }
 }

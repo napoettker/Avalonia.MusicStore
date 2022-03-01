@@ -35,7 +35,7 @@
 			</Button>
 		</Panel>-->
 		<Panel Margin="40">
-			<Button HorizontalAlignment="Right" VerticalAlignment="Top" Command="{Binding BuyMusicCommand}">
+			<!--<Button HorizontalAlignment="Right" VerticalAlignment="Top" Command="{Binding BuyMusicCommand}">
 				<PathIcon Data="{StaticResource store_microsoft_regular}" />
 			</Button>
 
@@ -53,7 +53,14 @@
 						<local:AlbumView Margin="0 0 20 20" />
 					</DataTemplate>
 				</ItemsControl.ItemTemplate>
-			</ItemsControl>
+			</ItemsControl>-->
+			<StackPanel Spacing="4"
+              Margin="4">
+				<TextBlock Text="Welcome to NetSparkle Avalonia!"/>
+				<Button Content="Manual Update Check"
+						Click="ManualUpdateCheck_Click"
+						Width="150"/>
+			</StackPanel>
 		</Panel>
     </Panel>
 
